@@ -4,7 +4,7 @@ export const validateTodo = (todo) => {
     if (!todo.title) {
         valid = false;
     }
-    if (todo.title && todo.description) {
+    if (todo.title) {
         valid = true;
     }
 
